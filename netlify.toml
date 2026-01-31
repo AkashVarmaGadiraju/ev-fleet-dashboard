@@ -1,7 +1,5 @@
 [build]
   command = "npm run build"
-  # Remove the 'publish' line or change it to 'public' (the plugin handles the rest)
-  publish = "public" 
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
